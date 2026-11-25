@@ -1,0 +1,94 @@
+# ==============================
+# Dependencies
+# ==============================
+node_modules/
+.pnpm-store/
+
+# ==============================
+# Environment variables & secrets
+# ==============================
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+*.pem
+*.key
+
+# ==============================
+# Build outputs
+# ==============================
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# ==============================
+# Prisma generated client
+# ==============================
+backend/src/generated/prisma/
+
+# ==============================
+# Logs
+# ==============================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==============================
+# Testing
+# ==============================
+coverage/
+.nyc_output/
+test-results/
+playwright-report/
+
+# ==============================
+# Cache and temporary files
+# ==============================
+.cache/
+.vite/
+.turbo/
+.eslintcache
+temp/
+tmp/
+*.tmp
+
+# ==============================
+# Database backups
+# ==============================
+*.dump
+*.backup
+
+# ==============================
+# IDE and editor files
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.pdf
+
+.agents/
+.claude/
+.windsurf/
+.cursor/skills/
+.codex/skills/
+.gemini/skills/
+.github/skills/
+skills-lock.json
+
+# ==============================
+# Operating system files
+# ==============================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==============================
+# Local uploads
+# ==============================
+backend/uploads/
